@@ -1,2 +1,2 @@
 # Cnn-Pytorch
-Beginner program in pytorch
+MNIST Image data classficiation in pytorch with custom labels.
