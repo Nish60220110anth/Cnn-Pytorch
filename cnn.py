@@ -133,11 +133,6 @@ if __name__ == "__main__":
 
     print("Test Datset Loaded")
 
-    # Size of image   [1,28,28] => one channel 28 * 28  pixels
-    train_data_iter = iter(train_data)
-    x, y = next(train_data_iter)
-    print("Feature Shape {0}".format(x.shape))
-
     train_dataframe_feature = pandas.DataFrame(
         data=(torch.flatten(train_data.data, start_dim=1)).numpy())
     print("Train Dataset Feature Shape {0}".format(

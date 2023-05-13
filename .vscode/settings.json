@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.cs": "csharp",
+        "*.vert": "plaintext",
+        "*.in": "ini",
+        "*.xlsx": "excel",
+        "xutility": "cpp",
+        "vector": "cpp"
+    },
+    "editor.multiCursorModifier": "ctrlCmd"
+}
