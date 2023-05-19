@@ -7,6 +7,8 @@ import pandas
 from torch.utils.data import Dataset
 import os
 
+
+# Custom Label
 label_mapping = {
     0: 0,  # T-shirt/top -> Upper
     1: 1,  # Trouser -> Lower
